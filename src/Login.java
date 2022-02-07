@@ -14,13 +14,15 @@ public class Login {
 
     }
 
-    private static String printResult(String email, String passsword) {
+    private static void printResult(String email, String passsword) {
         if (email.equals(EMAIL) && passsword.equals(PASSWORD)) {
 
             System.out.println("Login Correcte");
         }
+        else{
+            System.out.println("Login Incorrecte");
+        }
 
-        return null;
     }
 
     private static String askForPassword() {
