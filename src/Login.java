@@ -17,10 +17,10 @@ public class Login {
     private static void printResult(String email, String passsword) {
         if (email.equals(EMAIL) && passsword.equals(PASSWORD)) {
 
-            System.out.println("Login Correcte!!!");
+            System.out.println("Login Correcte");
         }
         else{
-            System.out.println("Login Incorrecte!!!");
+            System.out.println("Login Incorrecte");
         }
 
     }
